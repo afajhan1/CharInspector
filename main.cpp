@@ -10,16 +10,21 @@ int main()
   cout<<"What character do you want to know about?\n";
   cin>> letter;
 
-      if(letter>='A' && letter<='z') 
+      if(letter>='a' && letter<='z') 
       { 
 
   //when user's entry is between A-Z...
-  cout<<" is an upper case letter!\n";
-      }else if(letter>='a' && letter<='z') 
+  cout<<" is an lower case letter!\n";
+      }
+      
+      else if(letter>='A' && letter<='Z') 
+
       { 
   //when user's entry is between a-z...
-  cout<<" is a lower case letter!\n";
-      }else
+  cout<<" is a upper case letter!\n";
+      }
+      
+      else
       {
   //in all other cases...
   cout<<"?! Pssh. What are you talking about?\n";
