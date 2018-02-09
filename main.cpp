@@ -14,22 +14,23 @@ int main()
       { 
 
   //when user's entry is between A-Z...
-  cout<<" is an lower case letter!\n";
+  cout<<letter<<" is an lower case letter!\n";
       }
       
       else if(letter>='A' && letter<='Z') 
 
       { 
   //when user's entry is between a-z...
-  cout<<" is a upper case letter!\n";
+  cout<<letter<<" is a upper case letter!\n";
       }
       
       else
       {
   //in all other cases...
-  cout<<"?! Pssh. What are you talking about?\n";
+  cout<<letter<<"?! Pssh. What are you talking about?\n";
       }
-  //no matter what they enter...
+ 
+ //no matter what they enter...
   cout<<"The ASCII value is: "<<(int)letter<<endl;
 
   return 0;
